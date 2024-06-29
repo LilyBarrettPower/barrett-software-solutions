@@ -1,0 +1,11 @@
+.about-help {
+    margin: 20px;
+    max-width: 1300px;
+    margin-left: 100px;
+    font-size: 25px;
+    line-height: 1.8;
+}
+
+.about-help-heading {
+    padding: 10;
+}

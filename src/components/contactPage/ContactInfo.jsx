@@ -5,10 +5,6 @@ const ContactInfo = () => {
 
     return (
         <>
-            {/* <div className='contact-info-wrapper'>
-            <div className="contact-heading">
-                <h1>Contact us to learn more</h1>
-         </div> */}
             <div className="contact">
                 <div className="contact-item">
                     <p className="label">Phone:</p>
