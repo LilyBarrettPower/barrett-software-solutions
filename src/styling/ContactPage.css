@@ -1,0 +1,17 @@
+.contact-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    /* Adjust the gap as needed */
+}
+
+.contact-page>div {
+    flex: 1;
+    max-width: 45%;
+    /* Adjust the max-width as needed */
+}
+
+.contact-heading {
+    margin-left: 100px;
+}

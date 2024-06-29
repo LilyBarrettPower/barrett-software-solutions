@@ -1,26 +1,24 @@
 .contact{
     display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: flex-start;
         gap: 150px;
         margin-top: 50px;
+        margin-left: 100px;
         
 }
 
 .contact-item{
-display: flex;
+    display: flex;
     flex-direction: column;
     align-items:flex-start;
 }
 
-.contact-heading{
+/* .contact-heading{
     margin-left: 100px;
+} */
+
+
+.contact-info-wrapper {
+    margin-bottom: 50px
 }
-
-/* .label{
-
-} */
-
-/* .value{
- margin-top: 5px;
-} */
