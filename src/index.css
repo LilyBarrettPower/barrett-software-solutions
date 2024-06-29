@@ -36,12 +36,12 @@ h3 {
   font-size: 35px;
 }
 
+
 p {
   /* font-family: 'Arial', sans-serif; */
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: lighter;
-  font-size: 27px;
-  line-height: 1.8;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Montserrat', sans-serif;
+  font-weight:100;
 }
 
 body {
