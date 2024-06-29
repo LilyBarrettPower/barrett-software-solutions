@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    /* Center the items horizontally */
+    align-items: flex-start;
+    /* Align the items at the start of the cross-axis */
+    gap: 200px;
+    /* Space between the items */
+    padding: 20px;
+    background-color: #747474;
+    color: #030018;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.value {
+    margin-top: 5px;
+    /* Space between label and value */
+}

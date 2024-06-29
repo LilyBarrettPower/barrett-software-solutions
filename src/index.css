@@ -20,6 +20,7 @@ h5,
 h6 {
   font-family: 'Arial', sans-serif;
   font-weight: 'bold';
+  color: #ADD9F4;
 }
 
 h1 {
@@ -28,7 +29,7 @@ h1 {
 
 h2 {
 font-size: 30px;
-color: #EFC3F5;
+
 }
 
 h3 {
@@ -37,15 +38,15 @@ h3 {
 
 p {
   /* font-family: 'Arial', sans-serif; */
-
   font-family: Georgia, 'Times New Roman', Times, serif;
-
   font-weight: lighter;
   font-size: 27px;
+  line-height: 1.8;
 }
 
 body {
-  background-color: #23022E;
+  /* background-color: #23022E; */
+  background: linear-gradient(135deg, #040c2f, #030018);
   color: white;
   /* This ensures text is visible on the dark background */
   margin: 0;
