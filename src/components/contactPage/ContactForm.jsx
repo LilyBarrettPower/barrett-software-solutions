@@ -22,7 +22,7 @@ const ContactForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+        emailjs.sendForm('service_902t9ca', 'template_b60hfle', e.target, 'tTbCM2cnqY5vPYW8E')
             .then((result) => {
                 alert('Message sent successfully!');
             }, (error) => {

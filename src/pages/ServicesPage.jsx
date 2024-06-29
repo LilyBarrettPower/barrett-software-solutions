@@ -1,11 +1,12 @@
 import React from 'react';
 
+import ServicesCard from '../components/servicesPage/ServicesCard';
+
 const ServicesPage = () => {
     return (
-        <div>
-            <h1>Our Services</h1>
-            <p>Details about the services offered by Barrett Software Solutions.</p>
-        </div>
+        <>
+            <ServicesCard/>
+       </>
     );
 };
 
