@@ -1,7 +1,7 @@
 .services {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
     justify-content: center;
     padding: 20px;
 }
@@ -12,9 +12,14 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 30%;
     padding: 20px;
+    height: 300px;
     transition: transform 0.3s, opacity 0.3s;
     position: relative;
     overflow: hidden;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 
 .service-box:hover {
@@ -56,6 +61,7 @@
     text-align: center;
     padding: 20px;
     color: black;
+    width: 100%;
 }
 
 .service-box:hover .service-text {
