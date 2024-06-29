@@ -26,12 +26,34 @@ h1 {
   font-size: 100px;
 }
 
+h2 {
+font-size: 30px;
+color: #EFC3F5;
+}
+
 h3 {
-  font-size: 50px;
+  font-size: 35px;
 }
 
 p {
-  font-family: 'Arial', sans-serif;
+  /* font-family: 'Arial', sans-serif; */
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
   font-weight: lighter;
   font-size: 27px;
 }
+
+body {
+  background-color: #23022E;
+  color: white;
+  /* This ensures text is visible on the dark background */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+

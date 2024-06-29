@@ -1,11 +1,14 @@
 import React from 'react';
 
+import AboutUs from '../components/homePage/AboutUs';
+import TechnologyCapabilities from '../components/homePage/TechnologyCapabilities';
+
 const HomePage = () => {
     return (
-        <div>
-            <h1>Welcome to Barrett Software Solutions</h1>
-            <p>Your solution to software needs.</p>
-        </div>
+        <>
+            <AboutUs />
+            <TechnologyCapabilities/>
+        </>
     );
 };
 
