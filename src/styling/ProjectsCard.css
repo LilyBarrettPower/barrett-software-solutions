@@ -1,5 +1,5 @@
 .project-card {
-    background-color: #fff;
+    background: transparent;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 1 1 calc(33.333% - 20px);
@@ -9,22 +9,25 @@
     cursor: pointer;
     box-sizing: border-box;
     /* Include padding and border in the element's total width and height */
+    text-align: left;
 }
 
 .project-card:hover {
     transform: scale(1.05);
 }
 
-.project-card h3 {
+.project-card p {
     font-size: 1.5rem;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white
+
 }
 
 .project-image {
     width: 90%;
     height: 200px;
     /* Set a fixed height to ensure consistent aspect ratio */
-    border-radius: 8px;
+    /* border-radius: 8px; */
     margin-top: 10px;
     object-fit: cover;
     /* This ensures the image covers the container while maintaining its aspect ratio */

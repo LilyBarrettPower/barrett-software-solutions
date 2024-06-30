@@ -8,16 +8,17 @@
 .image-slider img {
     max-width: 60%;
     height: auto;
+    margin: 20px ;
+}
+
+.arrow-button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
     margin: 0 10px;
 }
 
-.image-slider button {
-    background-color: #ccc;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.image-slider button:hover {
-    background-color: #aaa;
+.arrow-button:hover {
+    color: #555;
 }

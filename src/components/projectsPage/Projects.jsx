@@ -13,7 +13,7 @@ const Projects = () => {
 const projects = [
     {
         id: 1,
-        title: 'The Hororata Village Bar and Cafe',
+        title: 'The Hororata Village Cafe',
         images: [
             '/images/HororataCafe1.jpg',
             '/images/HororataCafe2.jpg',
@@ -68,7 +68,7 @@ const projects = [
         ],
         description: `<p>We developed a comprehensive safety culture framework for a hospitality business to ensure adherence to food safety practices. This system consolidates methods, records, and compliance documentation in one easy-to-use platform, streamlining audits and enhancing overall food safety management.</p>`,
         technologies: 'Safety culture',
-        liveLink: 'https://example.com/project-two',
+
     },
     {
         id: 6,
@@ -78,7 +78,7 @@ const projects = [
         ],
         description: `<p>Introducing our bespoke safety culture framework tailored for the motorsport industry, honing in on meticulous management of teams, workshops,  vehicles and data storage and analysis. Our customisation extends to race-specific inspections, post-event evaluations, and streamlined inventory control, ensuring precision and safety at every stage of the racing journey.</p>`,
         technologies: 'Safety Culture, Zapier',
-        liveLink: 'https://example.com/project-two',
+
     },
     {
         id: 7,
@@ -89,7 +89,7 @@ const projects = [
         ],
         description: `<p>RentShare is a web application that allows users to rent and borrow under-utilised goods from every-day people</p>`,
         technologies: 'React, NodeJS, MySQL, AWS',
-        liveLink: 'https://example.com/project-two',
+
     },
     {
         id: 8,
@@ -101,7 +101,7 @@ const projects = [
         description: `<p>PitLane Pro is being developed with motorsport workers in mind. It's a cohesive mobile application that integrates all aspects of motorsport management.</p>
         <p>PitLane Pro was crafted using React Native, ensuring seamless performance across both iOS and Android platforms. Leveraging a modular architecture and robust backend integration, we engineered a scalable solution that empowers motorsport teams with intuitive management capabilities.</p>`,
         technologies: 'React Native, Firebase, IOS, Android, MongoDB, NodeJS',
-        liveLink: 'https://example.com/project-two',
+       
     }
     // Add more projects as needed
 ];

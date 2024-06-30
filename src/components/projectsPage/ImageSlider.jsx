@@ -2,6 +2,8 @@ import React from 'react';
 import { useState} from 'react';
 import '../../styling/ImageSlider.css';
 
+import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
+
 
 const ImageSlider = ({ images }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -20,9 +22,13 @@ const ImageSlider = ({ images }) => {
 
     return (
         <div className="image-slider">
-            <button onClick={prevImage}>Previous</button>
+            <button className="arrow-button" onClick={prevImage}>
+                <MdArrowBackIos />
+            </button>
             <img src={images[currentIndex]} alt="project" />
-            <button onClick={nextImage}>Next</button>
+            <button className="arrow-button" onClick={nextImage}>
+                <MdArrowForwardIos />
+            </button>
         </div>
     );
 };
