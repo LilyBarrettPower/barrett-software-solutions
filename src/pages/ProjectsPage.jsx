@@ -1,13 +1,19 @@
-import React from 'react';
+import React from 'react'; 
+
+import AboutProjects from '../components/projectsPage/AboutProjects';
+// import ProjectsCard from '../components/projectsPage/ProjectsCard';
+import Footer from '../components/Footer'
+import Projects from '../components/projectsPage/Projects';
 
 
 
 const ProjectsPage = () => {
     return (
-        <div>
-            <h1>Our Projects</h1>
-            <p>Details about the projects completed by Barrett Software Solutions.</p>
-        </div>
+        <>
+            <AboutProjects />
+            <Projects />
+            <Footer/>
+        </>
     );
 };
 
