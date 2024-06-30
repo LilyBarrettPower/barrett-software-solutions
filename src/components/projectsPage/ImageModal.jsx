@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../../styling/ImageModal.css';
+import '../../styling/ImageModal.css';
 
 import ImageSlider from './ImageSlider';
 

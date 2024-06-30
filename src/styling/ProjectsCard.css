@@ -1,4 +1,4 @@
-.projects-page {
+/* .projects-page {
     padding: 20px;
     text-align: center;
 }
@@ -42,4 +42,16 @@
 .project-card h3 {
     font-size: 1.5rem;
     margin-top: 10px;
+} */
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
 }
