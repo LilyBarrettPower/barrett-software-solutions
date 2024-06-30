@@ -1,33 +1,6 @@
 import React from 'react';
 import { useState} from 'react';
-// import Slider from 'react-slick';
-// import 'slick-carousel/slick/slick.css';
-// import 'slick-carousel/slick/slick-theme.css';
 import '../../styling/ImageSlider.css';
-
-// const ImageSlider = ({ images }) => {
-//     const settings = {
-//         dots: true,
-//         infinite: images.length > 1,
-//         speed: 500,
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//     };
-
-//     return (
-//         <div className="slider-container">
-//             <Slider {...settings}>
-//                 {images.map((image, index) => (
-//                     <div key={index} className="slide">
-//                         <img src={image} alt={`Slide ${index}`} className="slider-image" />
-//                     </div>
-//                 ))}
-//             </Slider>
-//         </div>
-//     );
-// };
-
-// export default ImageSlider;
 
 
 const ImageSlider = ({ images }) => {

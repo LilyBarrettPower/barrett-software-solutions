@@ -1,57 +1,31 @@
-/* .projects-page {
-    padding: 20px;
-    text-align: center;
-}
-
-.projects-page h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.projects-page p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-.projects-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
 .project-card {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    flex: 1 1 calc(33.333% - 20px);
+    /* Adjust the width for three cards per row */
     padding: 20px;
     transition: transform 0.3s;
     cursor: pointer;
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
 }
 
 .project-card:hover {
     transform: scale(1.05);
-}
-
-.project-image {
-    width: 100%;
-    border-radius: 8px;
 }
 
 .project-card h3 {
     font-size: 1.5rem;
     margin-top: 10px;
-} */
-
-.project-card {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 10px;
-    cursor: pointer;
-    transition: transform 0.2s;
 }
 
-.project-card:hover {
-    transform: scale(1.05);
+.project-image {
+    width: 90%;
+    height: 200px;
+    /* Set a fixed height to ensure consistent aspect ratio */
+    border-radius: 8px;
+    margin-top: 10px;
+    object-fit: cover;
+    /* This ensures the image covers the container while maintaining its aspect ratio */
 }
