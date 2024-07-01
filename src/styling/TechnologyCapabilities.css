@@ -41,6 +41,10 @@
         overflow: hidden;
 }
 
+.technology-logo:hover {
+    transform: scale(1.1);
+}
+
 .technology-capabilities-heading {
     margin-left: 100px;
     margin-top: 100px;

@@ -14,3 +14,28 @@ p {
   font-weight: lighter;
   font-size: small;
 } */
+
+
+.page-enter {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.page-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 1000ms, opacity 1000ms;
+  /* Increase duration to 1000ms */
+}
+
+.page-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.page-exit-active {
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 1000ms, opacity 1000ms;
+  /* Increase duration to 1000ms */
+}

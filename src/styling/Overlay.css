@@ -1,0 +1,31 @@
+.overlay {
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 1000;
+    transition: transform 2s ease-in-out;
+    /* Increase the duration to make it slower */
+}
+
+.overlay.hidden {
+    display: none;
+}
+
+.overlay.enter {
+    transform: translateY(0);
+}
+
+.overlay.enter-active {
+    transform: translateY(0);
+}
+
+.overlay.exit {
+    transform: translateY(-200%);
+}
+
+.overlay.exit-active {
+    transform: translateY(-200%);
+}
