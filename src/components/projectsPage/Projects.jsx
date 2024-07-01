@@ -48,7 +48,6 @@ const projects = [
         ],
         description: `<p>We developed a user-friendly website for Jeanette Mabin Hypnotherapy using Wix, designed to streamline her virtual hypnotherapy sessions. The site features integrated bookings, secure payment options, contact forms, and automated email communications, providing a seamless experience for clients seeking her services.</p>`,
         technologies: 'Wix',
-        liveLink: 'https://example.com/project-two',
     },
     {
         id: 4, 

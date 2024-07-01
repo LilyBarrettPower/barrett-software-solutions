@@ -26,7 +26,6 @@ const ImageModal = ({ isOpen, onClose, project }) => {
                 </button>
                 <h2>{project.title}</h2>
                 <div dangerouslySetInnerHTML={{ __html: project.description }} />
-                <p><strong>Technologies:</strong> {project.technologies}</p>
                 <ImageSlider images={project.images} />
                 {project.liveLink && (
                     <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className='live-project-link'>

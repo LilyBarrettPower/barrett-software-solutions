@@ -7,8 +7,7 @@
     gap: 200px;
     /* Space between the items */
     padding: 20px;
-    background-color: #b1b1b1;
-    color: #030018;
+    background-color: #030018;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
@@ -21,10 +20,11 @@
 }
 
 .label {
-    font-weight: bold;
+    color: #ADD9F4;
 }
 
 .value {
     margin-top: 5px;
+    color: white;
     /* Space between label and value */
 }
