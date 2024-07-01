@@ -1,27 +1,69 @@
 nav {
-    /* background-color: #333; */
     padding: 1em;
 }
 
-ul {
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    /* color: white; */
+    background: linear-gradient(to bottom right, #d3d3d3, #696969);
+        -webkit-background-clip: text;
+        background-clip: text;
+        /* Standard property for compatibility */
+        -webkit-text-fill-color: transparent;
+        /* Required for the gradient to show in WebKit browsers */
+        color: transparent;
+        /* Standard property for compatibility */
+}
+
+.navbar-menu {
     list-style: none;
     display: flex;
-    justify-content: space-around;
     margin: 0;
     padding: 0;
 }
 
-li {
-    margin: 0;
+.navbar-menu li {
+    margin-left: 2em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
+.navbar-menu a {
     color: #8B8982;
     text-decoration: none;
     padding: 0.5em 1em;
+    position: relative;
 }
 
-a:hover {
-    background-color: #555;
+.navbar-menu a.active {
+    color: white;
+    /* Active link color */
+}
+
+.navbar-menu a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #8B8982;
+    transition: width 0.3s;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.navbar-menu a:hover::after {
+    width: 100%;
+    /* Expand the line on hover */
+}
+
+.navbar-menu a:hover {
+    color: #555;
 }

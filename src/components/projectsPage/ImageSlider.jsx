@@ -22,13 +22,17 @@ const ImageSlider = ({ images }) => {
 
     return (
         <div className="image-slider">
-            <button className="arrow-button" onClick={prevImage}>
-                <MdArrowBackIos />
-            </button>
+            {images.length > 1 && (
+                <button className="arrow-button" onClick={prevImage}>
+                    <MdArrowBackIos />
+                </button>
+            )}
             <img src={images[currentIndex]} alt="project" />
-            <button className="arrow-button" onClick={nextImage}>
-                <MdArrowForwardIos />
-            </button>
+            {images.length > 1 && (
+                <button className="arrow-button" onClick={nextImage}>
+                    <MdArrowForwardIos />
+                </button>
+            )}
         </div>
     );
 };
