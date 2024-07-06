@@ -5,9 +5,8 @@
     width: 100%;
     height: 100%;
     background: #030018;
-    z-index: 1000;
+    z-index: 999;
     transition: transform 2s ease-in-out;
-    /* Increase the duration to make it slower */
 }
 
 .overlay.hidden {
@@ -29,3 +28,4 @@
 .overlay.exit-active {
     transform: translateY(-200%);
 }
+

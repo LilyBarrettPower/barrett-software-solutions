@@ -1,0 +1,46 @@
+.screen {
+    background-color:linear-gradient(135deg, #040c2f, #030018);
+    height: 100vh;
+    /* Full viewport height */
+    width: 100vw;
+    /* Full viewport width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+    overflow: hidden;
+    /* Prevent overflow */
+    position: relative;
+}
+
+.loading-animation {
+    position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+.spinner {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #555;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 3s linear infinite;
+    position: absolute;
+    top: 60%;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

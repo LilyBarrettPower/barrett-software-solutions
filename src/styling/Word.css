@@ -1,0 +1,13 @@
+.word {
+    display: inline-block;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    margin-right: 8px;
+}
+
+.word.visible {
+    opacity: 1;
+    transform: scaleY(1);
+}

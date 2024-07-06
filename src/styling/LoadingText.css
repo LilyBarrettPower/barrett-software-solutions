@@ -1,0 +1,11 @@
+.loading-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: linear-gradient(135deg, #040c2f, #030018);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+}

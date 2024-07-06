@@ -29,7 +29,7 @@ const NavBar = () => {
                 </div>
                 <ul className="navbar-menu">
                     <li>
-                        <NavLink to="/" exact activeClassName="active">Home</NavLink>
+                        <NavLink to="/home" exact activeClassName="active">Home</NavLink>
                     </li>
                     <li>
                         <NavLink to="/services" activeClassName="active">Services</NavLink>
