@@ -24,12 +24,9 @@ const TechnologyCapabilities = () => {
 
     return (
         <>
-            <div className='technology-capabilities-heading'>
-                <h2>Technology Capabilities:</h2>
-            </div>
             <div className="technology-capabilities">
                 <div className="technology-capabilities__left">
-                    {/* <h2>Technology Capabilities:</h2> */}
+                    <h2>Technology Capabilities:</h2>
                 </div>
                 <div className="technology-capabilities__right">
                     <div className="technology-grid">

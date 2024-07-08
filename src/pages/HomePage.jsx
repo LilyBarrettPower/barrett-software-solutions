@@ -5,12 +5,16 @@ import TechnologyCapabilities from '../components/homePage/TechnologyCapabilitie
 import Footer from '../components/Footer'
 import NavBar from '../components/Navbar';
 
+import '../styling/HomePage.css'
+
 const HomePage = () => {
     return (
         <div className='page-content'>
-            <NavBar/>
-            <AboutUs />
-            <TechnologyCapabilities />
+            <NavBar />
+            <div className='main-content'>
+                <AboutUs />
+                <TechnologyCapabilities />
+            </div>
             <Footer/>
         </div>
     );
